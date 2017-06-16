@@ -1,3 +1,8 @@
 #table {
   color: white;
 }
+
+#profilePicture {
+  max-length: 200px;
+  max-width: 200px;
+}
