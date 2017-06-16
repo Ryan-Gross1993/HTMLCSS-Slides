@@ -3,6 +3,23 @@
 }
 
 #profilePicture {
-  max-length: 200px;
-  max-width: 200px;
+  max-length: 300px;
+  max-width: 300px;
+}
+
+#boldExample {
+  font-size: .9em;
+}
+
+#linkExample {
+  font-size: .9em;
+}
+
+.list img {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.list ul li {
+  font-size: .9em;
 }

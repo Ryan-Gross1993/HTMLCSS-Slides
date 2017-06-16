@@ -27,12 +27,12 @@
 
       <section>
         <h2> A Bit About Myself </h2>
+        <img id="profilePicture" src="img/ProfessionalProfilePicture.jpg">
         <ul>
           <li> Recent graduate from Zip Code Wilmington </li>
           <li> Graduate from University of Delaware, Winter '16 </li>
           <li> Favorite food is sushi. </li>
         </ul>
-        <img id="profilePicture" src="img/ProfessionalProfilePicture.jpg">
       </section>
 
       <section>
@@ -128,8 +128,8 @@
 
       <section>
         <h2> Examples of HTML </h2>
-        <p><code> &lt;p&gt; Some &lt;strong&gt; bold &lt;/strong&gt; text &lt;/p&gt; </code> </p>
-        <p> Some <strong> bold </strong> text </p>
+        <p id ="boldExample"><code> &lt;p&gt; Some &lt;strong&gt; bold &lt;/strong&gt; text &lt;/p&gt; </code> </p>
+        Shows: <p> Some <strong> bold </strong> text </p>
         <code> &lt;img src=&quot;/images/cat.jpg&quot;/&gt; </code>
       </section>
 
@@ -139,20 +139,20 @@
         <p> Both contain &lt;li&gt; elements </p>
       </section>
 
-      <section>
+      <section class="list">
         <h2> Unordered List Example </h2>
-        <img src="img/unorderedList.jpg"/>
-        Looks like: </br>
+        <img src="img/unorderedList.jpg"/> </br>
+        Looks like: </br> </br>
         <ul> Favorite Places:
           <li> Tokyo </li>
           <li> New York </li>
         </ul>
       </section>
 
-      <section>
+      <section class="list">
         <h2> Ordered List Example </h2>
-        <img src="img/orderedList.jpg"/>
-        Looks Like: </br>
+        <img src="img/orderedList.jpg"/> </br>
+        Looks Like: </br> </br>
         <ol> Favorite TV Shows in Order:
           <li> South Park </li>
           <li> Family Guy </li>
@@ -166,11 +166,13 @@
           <li> Noted by the &lt;img&rt; tag </li>
           <li> Need to include the source of the picture. </li>
         </ul>
-          Example: <code> &lt;img src=&quot;http://www.google.com &quot; /&gt; </code>
+      <p id="linkExample"> &lt;a href=&quot;http://www.google.com&quot;&gt; link
+        &lt;/a&gt; </p>
       </section>
 
       <section>
-        <ul> Links
+        <h2> Links </h2>
+        <ul>
           <li> Noted by the &lt;a&gt; &lt;/a&gt; tags </li>
           <li> The HyperText Reference (Href) specifies the link! </li>
         </ul>
