@@ -25,6 +25,11 @@
 }
 
 #clearMarginsPadding {
-  max-length: 250px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+#boxModel {
+  max-height: 250px;
   max-width: 250px;
 }
