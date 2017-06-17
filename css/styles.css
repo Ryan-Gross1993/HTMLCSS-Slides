@@ -23,3 +23,8 @@
 .list ul li {
   font-size: .9em;
 }
+
+#clearMarginsPadding {
+  max-length: 250px;
+  max-width: 250px;
+}
