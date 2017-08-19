@@ -8,13 +8,13 @@
 }
 
 #orderedList {
-  max-length: 300px;
-  max-width: 300px;
+  max-length: 400px;
+  max-width: 500px;
 }
 
 #unorderedList {
-  max-length: 300px;
-  max-width: 300px;
+  max-length: 400px;
+  max-width: 500px;
 }
 
 #boldExample {
