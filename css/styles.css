@@ -2,7 +2,17 @@
   color: white;
 }
 
-#profilePicture, #unorderedList, #orderedList {
+#profilePicture{
+  max-length: 300px;
+  max-width: 300px;
+}
+
+#orderedList {
+  max-length: 300px;
+  max-width: 300px;
+}
+
+#unorderedList {
   max-length: 300px;
   max-width: 300px;
 }
