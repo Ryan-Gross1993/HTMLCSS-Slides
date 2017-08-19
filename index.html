@@ -21,7 +21,7 @@
           <li> Overview on the basics of the subject </li>
           <li> Lab to reinforce these core concepts </li>
           <li> Suggested material to continue learning post-lesson </li>
-          <li> A segway to a more advanced topic, if you dare </li>
+          <li> A segway to a more advanced topic</li>
         </ul>
       </section>
 
@@ -81,16 +81,18 @@
             <code> &lt;p&gt; A paragraph &lt;/p&gt; </code>
           </li> </br>
           <li> Stand-alone element: </br>
-          Example: Images and line breaks:
-          <code> &lt;/br&gt; &lt;img src=&quot;/...&quot;/img&gt; </code>
+          Example: Images and line breaks </br>
+          &lt;img src=&quot;/...&quot;/img&gt; </code>
           </li>
         </ul>
         </section>
 
         <section>
           <h2> More HTML Structure! </h2>
+          <ul>
           <li> Tags: Marks the beginning and end of an element </li>
-          <li> Attributes: Additional info about the element (class, id, source) </li>
+          <li> Attributes: Additional info about the element </br>
+            Such as class, id, and source </li>
           <li> Values: The value assigned to an attribute </li>
         </ul>
       </section>
@@ -130,7 +132,8 @@
       <section>
         <h2> Examples of HTML </h2>
         <p id ="boldExample"><code> &lt;p&gt; Some &lt;strong&gt; bold &lt;/strong&gt; text &lt;/p&gt; </code> </p>
-        Shows: <p> Some <strong> bold </strong> text </p>
+      </br>
+        <p> Result: Some <strong> bold </strong> text </p>
         <code> &lt;img src=&quot;/images/cat.jpg&quot;/&gt; </code>
       </section>
 
@@ -151,7 +154,7 @@
 
       <section class="list">
         <h2> Unordered List Example </h2>
-        <img src="img/unorderedList.jpg"/> </br>
+        <img id = "unorderedList" src="img/unorderedList.jpg"/> </br>
         Looks like: </br> </br>
         <ul> Favorite Places:
           <li> Tokyo </li>
@@ -161,7 +164,7 @@
 
       <section class="list">
         <h2> Ordered List Example </h2>
-        <img src="img/orderedList.jpg"/> </br>
+        <img id="orderedList" src="img/orderedList.jpg"/> </br>
         Looks Like: </br> </br>
         <ol> Favorite TV Shows in Order:
           <li> South Park </li>
@@ -196,17 +199,10 @@
         <p> Can use these IDs and Classes for CSS styling! </p>
         <ul>
           <li> Classes: Used for multiple groups of elements </br>
-           Multiple lists, but with the same font color. </li>
+           Multiple lists, but with the same font color. </li> </br>
            <li> IDs: Use for formatting a specific group </li>
         </ul>
       </section>
-
-<!--
-      <section>
-        <h2> A Useful Example </h2>
-        <img id="marginsPadding" src="img/clearMarginsPadding.jpg"/>
-        </section>
-      -->
 
       <section>
         <h2> What is CSS? </h2>
@@ -229,9 +225,10 @@
         <h2> Borders </h2>
         Edges around elements like images
         </br>
-        Borders are determined by thickness (px), style and color
+        Borders are determined by: </br>
+        thickness (px), style and color
         Ex: A solid black border</br>
-        <code> border: 1px solid black; </code> </br>
+        <code> border: 1px solid black; </code> </br> </br>
         Ex: A dotted red border </br>
         <code> border: 3px dotted #FF5733; </code>
       </section>
@@ -241,7 +238,7 @@
         Done in units of em; relative unit to the font.
         Better than using px., as that can vary on different screens
         </br>
-        <code> font-size: 1.4em; </code>
+        <code> font-size: 1.4em; </code> </br>
         You can make text, images, and other elements bigger/smaller
       </br>
       </section>
@@ -271,7 +268,7 @@
           margin-right: 10px;
           margin-top: 10px;
           margin-bottom: 10px;
-        </code/
+        </code>
         OR </br>
         <code> margin: 10px 10px 10px 10px </code>
         (top, right, bottom, left)
